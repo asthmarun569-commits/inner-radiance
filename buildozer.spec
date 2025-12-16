@@ -14,7 +14,7 @@ entrypoint = main.py
 
 orientation = portrait
 android.permissions = INTERNET
-android.api = 33
+android.build_tools_version = 33.0.2
 android.minapi = 21
 
 log_level = 2
