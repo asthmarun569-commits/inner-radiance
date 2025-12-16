@@ -1,4 +1,8 @@
-[app]
+[app]# --- RELEASE SIGNING ---
+android.release_keystore = inner_radiance.keystore
+android.release_keystore_passwd =asthmarun569
+android.release_keyalias = innerradiance
+android.release_keyalias_passwd = asthmarun569
  !keytool -genkey -v \
 -keystore inner_radiance.keystore \
 -alias innerradiance \
