@@ -1,4 +1,10 @@
 [app]
+ !keytool -genkey -v \
+-keystore inner_radiance.keystore \
+-alias innerradiance \
+-keyalg RSA \
+-keysize 2048 \
+-validity 10000
 title = InnerRadiance
 package.name = innerradiance
 package.domain = org.inner
