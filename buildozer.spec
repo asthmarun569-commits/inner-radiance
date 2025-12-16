@@ -1,20 +1,25 @@
 [app]
-title = Inner Radiance
+title = InnerRadiance
 package.name = innerradiance
 package.domain = org.inner
 
 source.dir = .
-source.include_exts = py
+source.include_exts = py,json
 
 version = 0.1
 
 requirements = python3,kivy
 
-entrypoint = main.py
-
 orientation = portrait
-android.permissions = INTERNET
-android.build_tools_version = 33.0.2
-android.minapi = 21
+fullscreen = 1
 
+android.permissions = INTERNET
+android.api = 33
+android.minapi = 21
+android.sdk = 33
+android.ndk = 25b
+android.archs = arm64-v8a
+
+[buildozer]
 log_level = 2
+warn_on_root = 1
